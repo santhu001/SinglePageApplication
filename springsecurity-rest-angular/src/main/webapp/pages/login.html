@@ -1,0 +1,41 @@
+<div class="row " >
+	<div class="col-md-8 col-sm-6 col-xs-12">
+		<div class="infographic">
+			<img src="images/kb-logo.png" class="logo" />
+			<div class="logo-holder">
+				<img src="images/infographic.png" class="img-responsive" /> <img
+					src="images/kb-icon.png" class="img-responsive kb-icon" />
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<form class="athentication-form login-form" ng-submit="signin(user)">
+			<h2>User Login</h2>
+			<div class="form-group">
+				<input type="email" class="form-control" id="#" placeholder="Email" ng-model="user.email">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" id="#"
+					placeholder="Password" ng-model="user.password">
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="checkbox">
+							<label> <input type="checkbox"> Remember me
+							</label>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<button type="submit" class="btn btn-default btn-sign-in">Sign
+							in</button>
+					</div>
+				</div>
+			</div>
+			<div class="form-group useful-links">
+				<a href="#forgotpassword">Forgot password?</a> <a href="#register"
+					class="signup">Sign up Now</a>
+			</div>
+		</form>
+	</div>
+</div>
